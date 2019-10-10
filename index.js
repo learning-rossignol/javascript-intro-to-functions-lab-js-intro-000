@@ -20,12 +20,14 @@ function sayHiToGrandma (in) {
   var scream = "YES INDEED!";
   var canthear = "I can\'t hear you!";
   var loveydovey = "I love you, Grandma.";
-  var lovya = "I love you, too.";
+  var youtoo = "I love you, too.";
   if (in === upperIn) {
     return scream;
   }
   else if (in === lowerIn) {
     return canthear;
   }
-  else if (in === )
+  else if (in === loveydovey) {
+    return youtoo;
+  }
 }
