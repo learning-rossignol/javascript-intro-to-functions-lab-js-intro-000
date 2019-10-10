@@ -15,8 +15,8 @@ function logWhisper(s) {
 }
 
 function sayHiToGrandma (input) {
-  var upperIn = in.toUpperCase();
-  var lowerIn = in.toLowerCase();
+  var upperIn = input.toUpperCase();
+  var lowerIn = input.toLowerCase();
   var scream = "YES INDEED!";
   var canthear = "I can\'t hear you!";
   var loveydovey = "I love you, Grandma.";
