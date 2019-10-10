@@ -14,20 +14,20 @@ function logWhisper(s) {
   console.log( whisper(s))
 }
 
-function sayHiToGrandma (in) {
+function sayHiToGrandma (input) {
   var upperIn = in.toUpperCase();
   var lowerIn = in.toLowerCase();
   var scream = "YES INDEED!";
   var canthear = "I can\'t hear you!";
   var loveydovey = "I love you, Grandma.";
   var youtoo = "I love you, too.";
-  if (in === upperIn) {
+  if (input === upperIn) {
     return scream;
   }
-  else if (in === lowerIn) {
+  else if (input === lowerIn) {
     return canthear;
   }
-  else if (in === loveydovey) {
+  else if (input === loveydovey) {
     return youtoo;
   }
 }
